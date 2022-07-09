@@ -19,7 +19,7 @@ class UserManager: ObservableObject {
         userName = name
     }
     
-    func logOff(){
+    func logOut(){
         userName = nil
     }
     
