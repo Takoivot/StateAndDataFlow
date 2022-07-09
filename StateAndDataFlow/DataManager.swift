@@ -1,19 +1,20 @@
 //
-//  UserManager.swift
+//  DataManager.swift
 //  StateAndDataFlow
 //
-//  Created by brubru on 21.02.2022.
+//  Created by Артур Сахбиев on 09.07.2022.
 //
 
 import Foundation
-import Combine
 import SwiftUI
 
-
-class UserManager: ObservableObject {
-    //@Published var isRegister = false
+final class DataManager {
+   
+   static let shared = DataManager()
     
     @AppStorage("name") var userName: String?
+    
+    private init() {}
     
     func save(name: String){
         userName = name

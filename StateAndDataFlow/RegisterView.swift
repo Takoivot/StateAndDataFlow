@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct RegisterView: View {
+   
     @EnvironmentObject var user: UserManager
     @State private var name = ""
+    
     
     var body: some View {
         VStack {
@@ -28,10 +30,12 @@ struct RegisterView: View {
 extension RegisterView {
     private func registerUser() {
         if !name.isEmpty {
-            user.name = name
-            user.isRegister.toggle()
+            //user.name = name
+            //user.isRegister.toggle()
+            user.save(name: name)
         }
     }
+    
 }
 
 struct RegisterView_Previews: PreviewProvider {
