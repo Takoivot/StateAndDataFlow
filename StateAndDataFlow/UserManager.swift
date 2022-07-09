@@ -11,7 +11,6 @@ import SwiftUI
 
 
 class UserManager: ObservableObject {
-    //@Published var isRegister = false
     
     @AppStorage("name") var userName: String?
     

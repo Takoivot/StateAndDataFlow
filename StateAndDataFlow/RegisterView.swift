@@ -30,8 +30,6 @@ struct RegisterView: View {
 extension RegisterView {
     private func registerUser() {
         if !name.isEmpty {
-            //user.name = name
-            //user.isRegister.toggle()
             user.save(name: name)
         }
     }

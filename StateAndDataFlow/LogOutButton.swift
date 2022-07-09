@@ -16,6 +16,7 @@ struct LogOutButton: View {
             .tint(.red)
             .font(.largeTitle)
             .cornerRadius(10)
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black , lineWidth: 4))
     }
 }
 
