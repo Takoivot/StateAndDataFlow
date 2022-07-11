@@ -18,6 +18,7 @@
 		F365BEE9287A10CD006AF898 /* LogOutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEE8287A10CD006AF898 /* LogOutButton.swift */; };
 		F365BEEB287A1869006AF898 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEEA287A1869006AF898 /* TextFieldView.swift */; };
 		F365BEEF287C1BAB006AF898 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEEE287C1BAB006AF898 /* RegisterButton.swift */; };
+		F365BEF1287C1E10006AF898 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEF0287C1E10006AF898 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		F365BEE8287A10CD006AF898 /* LogOutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButton.swift; sourceTree = "<group>"; };
 		F365BEEA287A1869006AF898 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		F365BEEE287C1BAB006AF898 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
+		F365BEF0287C1E10006AF898 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				0630458227C4070F00B51CED /* StateAndDataFlowApp.swift */,
-				0630458427C4070F00B51CED /* ContentView.swift */,
-				F365BEE8287A10CD006AF898 /* LogOutButton.swift */,
-				0630459027C40BEA00B51CED /* TimeCounter.swift */,
-				0630459227C4131600B51CED /* RegisterView.swift */,
-				0630459627C4165200B51CED /* StarterVIew.swift */,
-				0630459427C4147600B51CED /* UserManager.swift */,
-				F365BEEA287A1869006AF898 /* TextFieldView.swift */,
-				F365BEEE287C1BAB006AF898 /* RegisterButton.swift */,
+				F365BEF3287C1F3C006AF898 /* Views */,
+				F365BEF6287C1F71006AF898 /* Timer */,
+				F365BEF5287C1F59006AF898 /* Managers */,
+				F365BEF4287C1F50006AF898 /* TF */,
+				F365BEF2287C1ED5006AF898 /* Buttons */,
 				0630458627C4071000B51CED /* Assets.xcassets */,
 				0630458827C4071000B51CED /* Preview Content */,
 			);
@@ -86,6 +85,50 @@
 				0630458927C4071000B51CED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F365BEF2287C1ED5006AF898 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F365BEF0287C1E10006AF898 /* ButtonView.swift */,
+				F365BEEE287C1BAB006AF898 /* RegisterButton.swift */,
+				F365BEE8287A10CD006AF898 /* LogOutButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F365BEF3287C1F3C006AF898 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0630458427C4070F00B51CED /* ContentView.swift */,
+				0630459227C4131600B51CED /* RegisterView.swift */,
+				0630459627C4165200B51CED /* StarterVIew.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F365BEF4287C1F50006AF898 /* TF */ = {
+			isa = PBXGroup;
+			children = (
+				F365BEEA287A1869006AF898 /* TextFieldView.swift */,
+			);
+			path = TF;
+			sourceTree = "<group>";
+		};
+		F365BEF5287C1F59006AF898 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0630459427C4147600B51CED /* UserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F365BEF6287C1F71006AF898 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				0630459027C40BEA00B51CED /* TimeCounter.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +203,7 @@
 			files = (
 				0630459727C4165200B51CED /* StarterVIew.swift in Sources */,
 				0630459127C40BEA00B51CED /* TimeCounter.swift in Sources */,
+				F365BEF1287C1E10006AF898 /* ButtonView.swift in Sources */,
 				F365BEEB287A1869006AF898 /* TextFieldView.swift in Sources */,
 				F365BEEF287C1BAB006AF898 /* RegisterButton.swift in Sources */,
 				0630459327C4131600B51CED /* RegisterView.swift in Sources */,

@@ -9,8 +9,7 @@ import SwiftUI
 
 struct TextFieldView: View {
     @Binding var name: String
-  
-    
+
     let titel = "Enter your name..."
     
     var body: some View {
