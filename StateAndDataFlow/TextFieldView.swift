@@ -9,15 +9,27 @@ import SwiftUI
 
 struct TextFieldView: View {
     @Binding var name: String
+  
+    
     let titel = "Enter your name..."
+    
     var body: some View {
-        TextField(titel, text: $name)
-            .multilineTextAlignment(.center)
+        ZStack{
+            TextField(titel, text: $name)
+                .multilineTextAlignment(.center)
+            HStack{
+                Spacer()
+                Text("\(name.count)")
+                    .foregroundColor(name.count > 2 ? .green : .red)
+                    .padding(.trailing)
+            }
+        }
     }
+  
 }
 
-//struct TextFieldView_Previews: PreviewProvider {
-  //  static var previews: some View {
-  //      TextFieldView(name: )
-   // }
-//}
+struct TextFieldView_Previews: PreviewProvider {
+   static var previews: some View {
+       TextFieldView(name: .constant(""))
+    }
+}

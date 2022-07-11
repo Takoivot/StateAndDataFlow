@@ -12,18 +12,19 @@ struct RegisterView: View {
     @EnvironmentObject var user: UserManager
     @State private var name = ""
     
-    
+  
     var body: some View {
         VStack {
             //TextField("Enter your name...", text: $name)
                 //.multilineTextAlignment(.center)
             TextFieldView(name: $name)
+            
             Button(action: registerUser) {
                 HStack {
                     Image(systemName: "checkmark.circle")
                     Text("Ok")
                 }
-            }
+            }.disabled(name.count < 3)
         }
     }
 }
@@ -34,8 +35,8 @@ extension RegisterView {
             user.save(name: name)
         }
     }
-    
 }
+
 
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
