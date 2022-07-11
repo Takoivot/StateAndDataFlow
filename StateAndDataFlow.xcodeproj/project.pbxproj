@@ -17,6 +17,7 @@
 		0630459727C4165200B51CED /* StarterVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630459627C4165200B51CED /* StarterVIew.swift */; };
 		F365BEE9287A10CD006AF898 /* LogOutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEE8287A10CD006AF898 /* LogOutButton.swift */; };
 		F365BEEB287A1869006AF898 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEEA287A1869006AF898 /* TextFieldView.swift */; };
+		F365BEEF287C1BAB006AF898 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365BEEE287C1BAB006AF898 /* RegisterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0630459627C4165200B51CED /* StarterVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterVIew.swift; sourceTree = "<group>"; };
 		F365BEE8287A10CD006AF898 /* LogOutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButton.swift; sourceTree = "<group>"; };
 		F365BEEA287A1869006AF898 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		F365BEEE287C1BAB006AF898 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0630459627C4165200B51CED /* StarterVIew.swift */,
 				0630459427C4147600B51CED /* UserManager.swift */,
 				F365BEEA287A1869006AF898 /* TextFieldView.swift */,
+				F365BEEE287C1BAB006AF898 /* RegisterButton.swift */,
 				0630458627C4071000B51CED /* Assets.xcassets */,
 				0630458827C4071000B51CED /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				0630459727C4165200B51CED /* StarterVIew.swift in Sources */,
 				0630459127C40BEA00B51CED /* TimeCounter.swift in Sources */,
 				F365BEEB287A1869006AF898 /* TextFieldView.swift in Sources */,
+				F365BEEF287C1BAB006AF898 /* RegisterButton.swift in Sources */,
 				0630459327C4131600B51CED /* RegisterView.swift in Sources */,
 				F365BEE9287A10CD006AF898 /* LogOutButton.swift in Sources */,
 				0630458527C4070F00B51CED /* ContentView.swift in Sources */,
